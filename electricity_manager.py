@@ -52,7 +52,7 @@ class ElectricityManager:
 
 if __name__ == "__main__":
     # Test logic
-    manager = ElectricityManager('upload/ПУЛИБАРК.xlsx')
+    manager = ElectricityManager('ПУЛИБАРК.xlsx')
     # Test with PANTERA
     result = manager.update_merchant("ПАНТЕРА", 8000.0)
     print(result)
