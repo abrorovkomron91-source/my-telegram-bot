@@ -15,7 +15,7 @@ logging.basicConfig(
 ADMIN_IDS = [123456789] # Replace with actual ID
 
 # Initialize Manager
-manager = ElectricityManager('upload/ПУЛИБАРК.xlsx')
+manager = ElectricityManager('ПУЛИБАРК.xlsx')
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user = update.effective_user
@@ -77,9 +77,9 @@ async def handle_text(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 if __name__ == '__main__':
     # You need to put your token here
-    TOKEN = '7995368889:AAG0mdsjHED9HVRTNMO0hsnc99S_pR6lI04'
+    TOKEN = '8662959160:AAE8ty5z7qEGB9_LgJKUbrocR22ejjEIm5Y'
     
-    if TOKEN == '7995368889:AAG0mdsjHED9HVRTNMO0hsnc99S_pR6lI04':
+    if TOKEN == '8662959160:AAE8ty5z7qEGB9_LgJKUbrocR22ejjEIm5Y':
         print("Error: Please provide a valid Telegram Bot Token.")
     else:
         application = ApplicationBuilder().token(TOKEN).build()
