@@ -77,9 +77,9 @@ async def handle_text(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 if __name__ == '__main__':
     # You need to put your token here
-    TOKEN = 'YOUR_BOT_TOKEN_HERE'
+    TOKEN = '7995368889:AAG0mdsjHED9HVRTNMO0hsnc99S_pR6lI04'
     
-    if TOKEN == 'YOUR_BOT_TOKEN_HERE':
+    if TOKEN == '7995368889:AAG0mdsjHED9HVRTNMO0hsnc99S_pR6lI04':
         print("Error: Please provide a valid Telegram Bot Token.")
     else:
         application = ApplicationBuilder().token(TOKEN).build()
